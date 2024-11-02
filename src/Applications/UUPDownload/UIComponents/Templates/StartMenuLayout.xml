@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LayoutModificationTemplate
+    xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification"
+    xmlns:defaultlayout="http://schemas.microsoft.com/Start/2014/FullDefaultLayout"
+    Version="1">
+  <LayoutOptions>
+    <StartTileGroupCellWidth>6</StartTileGroupCellWidth>
+    <StartTileGroupsColumnCount>1</StartTileGroupsColumnCount>
+  </LayoutOptions>
+  <DefaultLayoutOverride>
+    <StartLayoutCollection>
+      <defaultlayout:StartLayout GroupCellWidth="6">
+        <start:Group Name="">
+          <start:Tile
+              Size="2x2"
+              Column="0"
+              Row="0"
+              AppUserModelID="Microsoft.WindowsStore_8wekyb3d8bbwe!App"/>
+          <start:Tile
+              Size="2x2"
+              Column="2"
+              Row="0"
+              AppUserModelID="Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge"/>
+        </start:Group>
+      </defaultlayout:StartLayout>
+    </StartLayoutCollection>
+  </DefaultLayoutOverride>
+</LayoutModificationTemplate> 

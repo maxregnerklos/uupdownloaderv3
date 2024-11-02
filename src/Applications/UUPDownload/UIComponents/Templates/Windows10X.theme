@@ -1,0 +1,18 @@
+[Theme]
+DisplayName=Windows 10X Theme
+ThemeId={78B8B376-0F9A-447C-9AAE-8B8C4E3DBFB1}
+
+[VisualStyles]
+Path=%SystemRoot%\Resources\Themes\Windows10X\Windows10X.msstyles
+ColorStyle=NormalColor
+Size=NormalSize
+AutoColorization=0
+
+[Control Panel\Desktop]
+Pattern=
+Wallpaper=%SystemRoot%\Resources\Themes\Windows10X\Wallpapers\default.jpg
+TileWallpaper=0
+WallpaperStyle=10
+
+[Control Panel\Colors]
+Background=255 255 255 
